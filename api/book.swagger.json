@@ -140,6 +140,9 @@
       "properties": {
         "book_id": {
           "type": "string"
+        },
+        "title": {
+          "type": "string"
         }
       }
     },
