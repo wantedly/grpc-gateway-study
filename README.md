@@ -22,6 +22,12 @@ If you would like to run samples in Docker, you can use [creasty/rid](https://gi
 $ brew install creasty/tools/rid
 ```
 
+## Setup DB
+
+```
+$ rid createdb grpc-gateway-study
+$ rid migrate up
+```
 
 ## Links
 
