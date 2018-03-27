@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd db/migrate
+migrate -path ./ -database "postgres://postgres:@localhost/grpc-gateway-study?sslmode=disable" "$@"

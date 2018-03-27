@@ -1,0 +1,13 @@
+Run a portable PostgreSQL server
+
+Usage:
+    rid pg COMMAND
+
+Commands:
+    start
+    stop
+    destroy
+    psql
+    createdb $dbname
+    status
+    logs
