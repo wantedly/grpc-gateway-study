@@ -61,6 +61,24 @@
   version = "v0.2.0"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/jmoiron/sqlx"
+  packages = [
+    ".",
+    "reflectx"
+  ]
+  revision = "cf35089a197953c69420c8d0cecda90809764b1d"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/lib/pq"
+  packages = [
+    ".",
+    "oid"
+  ]
+  revision = "614cb7963ff8ee90114d039a0f92dcd6a79292f9"
+
+[[projects]]
   name = "github.com/pkg/errors"
   packages = ["."]
   revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
@@ -151,6 +169,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "760293037606342ff01ee66b1ca86dbdc146853551d041811884ff063ce20654"
+  inputs-digest = "af055f5720aeb2fade5f9ab92a240de38779ed944bc0fc31b589a9fa58bc0e36"
   solver-name = "gps-cdcl"
   solver-version = 1

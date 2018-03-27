@@ -37,6 +37,7 @@ service BookService {
 
 message Book {
   string book_id = 1;
+  string title = 2;
 }
 
 message ListBooksRequest {
